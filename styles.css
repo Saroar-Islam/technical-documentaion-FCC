@@ -109,7 +109,7 @@ code {
 
 @media (max-width: 768px) {
     #navbar {
-        width: 150px;
+        width: 112px;
     }
 
     #navbar ul {
@@ -124,7 +124,7 @@ code {
     }
 
     #main-doc {
-        left: 152px;
+        left: 108px;
         padding: 7px;
     }
     .bold-p {
