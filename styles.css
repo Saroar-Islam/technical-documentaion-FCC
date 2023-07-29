@@ -9,7 +9,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    min-width: 290px;
 }
 
 a {
@@ -20,13 +19,21 @@ a {
 #navbar {
     position: fixed;
     width: 280px;
-    margin: auto;
+    margin: 0 auto;
     top: 0;
     left: 0;
     background-color: whitesmoke;
     font-family: sans-serif;
     height: 100%;
     text-align: left;
+}
+
+#main-doc {
+    position: absolute;
+    top: 0;
+    margin-left: 280px;
+    padding: 10px;
+    right: 0;
 }
 
 #navbar ul {
@@ -56,12 +63,6 @@ a {
     list-style: circle;
 }
 
-#main-doc {
-    position: absolute;
-    top: 0;
-    margin-left: 280px;
-    padding: 2rem 2rem 2rem 5rem;
-}
 .page-header {
     text-align: center;
     font-size: var(--fs-header);
@@ -113,6 +114,10 @@ code {
         width: 112px;
     }
 
+    #main-doc {
+        margin-left: 112px;
+    }
+
     #navbar ul {
         padding-left: 5px;
     }
@@ -124,10 +129,6 @@ code {
         font-size: var(--fs-inside);
     }
 
-    #main-doc {
-        margin-left: 108px;
-        padding: 7px;
-    }
     .bold-p {
         padding: 1rem 0 0 0;
     }
